@@ -78,6 +78,10 @@
     color: #B1D0E0;
     font-size: xx-large;
     padding-top: 20px;
+    margin: 0 auto;
+    width: max-content;
+    border-color: #1A374D;
+
 }
 .nosotrosParrafo {
     padding: 5vh 2vh;
@@ -125,6 +129,9 @@
     text-align: center;
     color: #B1D0E0;
     font-size: xx-large;
+    margin: 0 auto;
+    width: max-content;
+    border-color: #1A374D;
 }
 .serviciosLista {
     padding: 35px 20px;
@@ -236,6 +243,9 @@
     text-align: center;
     color: #B1D0E0;
     font-size: xx-large;
+    margin: 0 auto;
+    width: max-content;
+    border-color: #1A374D;
 }
 .contactoForm {
     padding: 35px 20px;
@@ -264,6 +274,9 @@ iframe {
     text-align: center;
     color: #B1D0E0;
     font-size: xx-large;
+    margin: 0 auto;
+    width: max-content;
+    border-color: #1A374D;
 }
 .trabajoForm {
     padding: 35px 20px;
@@ -465,4 +478,65 @@ iframe {
     iframe {
         width: 390px;
     }
+}
+
+/* ANIMACIONES, GRADIENTES Y TRANSFORMACIONES */
+
+.itemImg:hover {   
+    transform: scale(1.2) rotateY(180deg);
+    transition-duration: 3s;
+}
+
+.logoImg:hover {
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+.nosotrosTitulo:hover {
+    animation: borderBottom 3s;
+    transform: scale(1.1);
+    transition-duration: 3s;
+}
+@keyframes borderBottom {
+    100% {
+        border-bottom: 2px solid #B1D0E0; 
+    }
+
+}
+
+.serviciosTitulo:hover {
+    animation: borderBottom 3s;
+    transform: scale(1.1);
+    transition-duration: 3s;
+}
+@keyframes borderBottom {
+    100% {
+        border-bottom: 2px solid #B1D0E0; 
+    }
+
+}
+
+
+.trabajoTitulo:hover {
+    animation: borderBottom 3s;
+    transform: scale(1.1);
+    transition-duration: 3s;
+}
+@keyframes borderBottom {
+    100% {
+        border-bottom: 2px solid #B1D0E0; 
+    }
+
+}
+
+.contactoTitulo:hover {
+    animation: borderBottom 3s;
+    transform: scale(1.1);
+    transition-duration: 3s;
+}
+@keyframes borderBottom {
+    100% {
+        border-bottom: 2px solid #B1D0E0; 
+    }
+
 }
